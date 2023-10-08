@@ -4,9 +4,8 @@
  * main - this is practicing for first time
  *
  * description : printing a string
- * return:0 always for succes operation
  *
- *
+ * Return:0 always for succes operation
  */
 
 
