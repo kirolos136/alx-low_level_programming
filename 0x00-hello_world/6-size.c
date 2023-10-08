@@ -5,7 +5,7 @@
  *
  * description : printing a string
  *
- * Return:0 always for succes operation
+ * Return:0 always for success operation
  */
 
 
