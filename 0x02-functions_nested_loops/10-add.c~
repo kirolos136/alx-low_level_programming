@@ -1,0 +1,13 @@
+#include "main.h"
+/**
+ * add - entry point
+ * @n: first req int
+ * @m : sec req int 
+ * description : prints the sum
+ *
+ * Return:0 always for succes operation
+ */
+int add(int n, int m)
+{
+	return (n + m);
+}
