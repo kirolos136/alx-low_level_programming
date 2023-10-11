@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 	int times = 0;
 	char a = 'a';
 
-	while (times < 9)
+	while (times < 10)
 	{
 		while (a < '{')
 		{
@@ -21,5 +21,7 @@ void print_alphabet_x10(void)
 			a++;
 		}
 		_putchar('\n');
+		times++;
+		a = 'a';
 	}
 }
