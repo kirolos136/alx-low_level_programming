@@ -1,0 +1,22 @@
+#include "main.h"
+/**
+ * _islower - this is print 1 for lower case
+ *
+ * @c : integer check lowercase
+ * description : printing a int
+ *
+ * Return:0 always for succes operation
+ */
+
+int _islower(int c)
+{
+	if (c >= 97 && c <= 122)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+
+}
