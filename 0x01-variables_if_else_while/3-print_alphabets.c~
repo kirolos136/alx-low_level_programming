@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+/**
+ * main - entry point
+ *
+ * description : printing a string
+ *
+ * Return:0 always for success operation
+ */
+
+
+int main(void)
+{
+	char a = 'a';
+	char A = 'A';
+	
+	do {
+		putchar(a);
+		a++;
+	} while (a != '{');
+	do {
+		putchar(A);
+		A++;
+	} while (A != '[');
+	putchar('\n');
+	return (0);
+}
